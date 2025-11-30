@@ -629,6 +629,10 @@
     [
       "a18431ea-692e-404c-95d5-0160882d1cfb",
       "Audio"
+    ],
+    [
+      "597ada8e-b23f-4a63-8db5-74da342cd1e1",
+      "USB-UART Converter"
     ]
   ],
   "text_variables": {}

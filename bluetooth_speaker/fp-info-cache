@@ -1,4 +1,11 @@
-26767321919604922
+26774380506259061
+282836-4
+282836-4_TYC
+
+282836-4 
+0
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2813,6 +2820,27 @@ speaker CUI
 0
 2
 2
+CP2102N-A01-GQFN28
+QFN28_5X5_SIL
+
+CP2102N-A01-GQFN28 
+0
+29
+29
+CP2102N-A01-GQFN28
+QFN28_5X5_SIL-L
+
+CP2102N-A01-GQFN28 
+0
+29
+29
+CP2102N-A01-GQFN28
+QFN28_5X5_SIL-M
+
+CP2102N-A01-GQFN28 
+0
+29
+29
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
