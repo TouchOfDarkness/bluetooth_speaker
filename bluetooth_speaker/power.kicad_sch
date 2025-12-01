@@ -447,7 +447,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_US"
+		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -458,15 +458,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.54 0 90)
+				(at 2.032 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
+			(property "Value" "R"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -474,7 +474,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 1.016 -0.254 90)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -491,7 +491,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, US symbol"
+			(property "Description" "Resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -518,61 +518,12 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -580,7 +531,7 @@
 					)
 				)
 			)
-			(symbol "R_US_1_1"
+			(symbol "R_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1362,7 +1313,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 48.26) (xy 167.64 53.34)
+			(xy 167.64 50.8) (xy 167.64 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1532,7 +1483,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 40.64) (xy 167.64 38.1)
+			(xy 167.64 43.18) (xy 167.64 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1943,76 +1894,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 167.64 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20d6be83-5622-4952-9202-211c8dbb015d")
-		(property "Reference" "R2"
-			(at 170.18 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "16.5kΩ"
-			(at 170.18 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.656 44.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 167.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "20d5378a-248e-4c1d-b435-5293cfac334d")
-		)
-		(pin "1"
-			(uuid "8adc6fc2-b439-4dc0-8dfd-28ce4d6ed12b")
-		)
-		(instances
-			(project "bluetooth_speaker"
-				(path "/13ff5fb5-140a-4554-92d9-4ae3849ea082/cd0ae78a-fc9d-43c8-a2e3-95882dae1290"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 71.12 38.1 0)
 		(unit 1)
@@ -2149,6 +2030,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 167.64 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "429b7756-56e1-462b-9570-d6edc07ab2c1")
+		(property "Reference" "R3"
+			(at 170.942 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 170.942 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 169.418 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4c30f8f-e718-4a3b-bb45-c34e6ef58c9f")
+		)
+		(pin "2"
+			(uuid "e33792de-d177-4df3-ab53-1c5fd14b8adc")
+		)
+		(instances
+			(project "bluetooth_speaker"
+				(path "/13ff5fb5-140a-4554-92d9-4ae3849ea082/cd0ae78a-fc9d-43c8-a2e3-95882dae1290"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 60.96 48.26 0)
 		(unit 1)
@@ -2242,7 +2192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 82.55 43.18 0)
 			(effects
 				(font
@@ -2346,76 +2296,6 @@
 			(project ""
 				(path "/13ff5fb5-140a-4554-92d9-4ae3849ea082/cd0ae78a-fc9d-43c8-a2e3-95882dae1290"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 167.64 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97fe5e89-4623-40f1-8cfb-6d77418d83da")
-		(property "Reference" "R3"
-			(at 170.18 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 170.18 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.656 59.944 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 167.64 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e43874b2-0f4f-4fff-9a1a-9c66f7d5c356")
-		)
-		(pin "1"
-			(uuid "e292d443-7778-4d16-a96b-f854abf3c13d")
-		)
-		(instances
-			(project "bluetooth_speaker"
-				(path "/13ff5fb5-140a-4554-92d9-4ae3849ea082/cd0ae78a-fc9d-43c8-a2e3-95882dae1290"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2648,7 +2528,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:IND_BOURNS_SDR2207"
 			(at 125.73 38.1 0)
 			(effects
 				(font
@@ -2895,6 +2775,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 167.64 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef682f00-4ae5-4931-a601-76e35be9c255")
+		(property "Reference" "R2"
+			(at 170.434 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "16.5kΩ"
+			(at 170.434 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 169.418 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b67db54-9179-4dc7-81da-b653c21a30a4")
+		)
+		(pin "2"
+			(uuid "e3310308-a36e-42bd-84e1-981b64996b17")
+		)
+		(instances
+			(project "bluetooth_speaker"
+				(path "/13ff5fb5-140a-4554-92d9-4ae3849ea082/cd0ae78a-fc9d-43c8-a2e3-95882dae1290"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 138.43 48.26 0)
 		(unit 1)
@@ -2988,7 +2937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 93.98 40.64 0)
 			(effects
 				(font
@@ -3057,7 +3006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 138.43 43.18 0)
 			(effects
 				(font

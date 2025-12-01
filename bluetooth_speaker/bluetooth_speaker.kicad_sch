@@ -4222,7 +4222,7 @@
 		)
 		(uuid "2e48b59e-db1b-4af3-a2ac-99afaf0fbb70")
 	)
-	(label "U0RXD"
+	(label "U0TXD"
 		(at 24.13 135.89 180)
 		(effects
 			(font
@@ -4342,7 +4342,7 @@
 		)
 		(uuid "be622bbd-7fc5-425f-b91a-2cddc0e989b4")
 	)
-	(label "U0TXD"
+	(label "U0RXD"
 		(at 24.13 138.43 180)
 		(effects
 			(font
@@ -4590,7 +4590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 242.57 137.16 0)
 			(effects
 				(font
@@ -4659,7 +4659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 21.59 43.18 0)
 			(effects
 				(font
@@ -5142,7 +5142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 43.18 43.18 0)
 			(effects
 				(font
@@ -5413,7 +5413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 160.02 43.18 0)
 			(effects
 				(font
@@ -5665,7 +5665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "387e1032-13c3-4627-a474-7e3ca59f13eb")
-		(property "Reference" "U5"
+		(property "Reference" "J1"
 			(at 265.43 54.6099 90)
 			(effects
 				(font
@@ -5727,7 +5727,7 @@
 		(instances
 			(project ""
 				(path "/13ff5fb5-140a-4554-92d9-4ae3849ea082"
-					(reference "U5")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5760,7 +5760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 168.91 43.18 0)
 			(effects
 				(font
@@ -5829,7 +5829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 158.75 66.04 0)
 			(effects
 				(font
@@ -6100,7 +6100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 158.75 93.98 0)
 			(effects
 				(font
@@ -6311,7 +6311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 41.91 27.94 0)
 			(effects
 				(font
@@ -6916,7 +6916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 168.91 140.97 0)
 			(effects
 				(font
@@ -6985,7 +6985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 168.91 123.19 0)
 			(effects
 				(font
@@ -7458,7 +7458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 222.25 137.16 0)
 			(effects
 				(font
@@ -7660,7 +7660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 31.75 43.18 0)
 			(effects
 				(font
