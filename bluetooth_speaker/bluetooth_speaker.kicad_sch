@@ -3654,16 +3654,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 127) (xy 168.91 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83250c3c-0be8-44a6-8fba-882166c6a5bd")
-	)
-	(wire
-		(pts
 			(xy 212.09 133.35) (xy 222.25 133.35)
 		)
 		(stroke
@@ -3814,7 +3804,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 127) (xy 142.24 127)
+			(xy 138.43 127) (xy 168.91 127)
 		)
 		(stroke
 			(width 0)
@@ -3931,16 +3921,6 @@
 			(type default)
 		)
 		(uuid "cade108d-3a9b-4f09-9785-ed363d7f7304")
-	)
-	(wire
-		(pts
-			(xy 55.88 39.37) (xy 59.69 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdd5d460-44bb-46f8-8600-09e8c955ad09")
 	)
 	(wire
 		(pts
@@ -4074,7 +4054,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 39.37) (xy 48.26 39.37)
+			(xy 43.18 39.37) (xy 59.69 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4590,7 +4570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "SamacSys_Parts:GRM033D70J224ME01D"
 			(at 242.57 137.16 0)
 			(effects
 				(font
@@ -4599,7 +4579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/76/1/GRM0335C1H1R0BA01-01A.pdf"
 			(at 242.57 137.16 0)
 			(effects
 				(font
@@ -4939,7 +4919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 43.18 81.28 0)
 			(effects
 				(font
@@ -5344,7 +5324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 			(at 250.19 133.35 0)
 			(effects
 				(font
@@ -5665,7 +5645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "387e1032-13c3-4627-a474-7e3ca59f13eb")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 265.43 54.6099 90)
 			(effects
 				(font
@@ -5727,7 +5707,7 @@
 		(instances
 			(project ""
 				(path "/13ff5fb5-140a-4554-92d9-4ae3849ea082"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6143,74 +6123,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 146.05 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6bd98f05-6d65-49ec-9712-0af852960941")
-		(property "Reference" "L4"
-			(at 146.05 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2nH(0.1nH)"
-			(at 146.05 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 146.05 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d736af16-c21b-402a-a55a-9c6eba522e93")
-		)
-		(pin "1"
-			(uuid "7533f446-e700-4a19-b402-e547deb6e98d")
-		)
-		(instances
-			(project "bluetooth_speaker"
-				(path "/13ff5fb5-140a-4554-92d9-4ae3849ea082"
-					(reference "L4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal_GND24")
 		(at 168.91 132.08 270)
 		(unit 1)
@@ -6481,74 +6393,6 @@
 			(project "bluetooth_speaker"
 				(path "/13ff5fb5-140a-4554-92d9-4ae3849ea082"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 52.07 39.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c8302e7-a026-4a72-a786-30b57e51c41e")
-		(property "Reference" "L2"
-			(at 52.07 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2nH(0.1nH)"
-			(at 52.07 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 52.07 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6df54a3d-d113-47d5-993f-55a6319ba598")
-		)
-		(pin "1"
-			(uuid "c70238f8-a29a-44e5-b820-33d48b79e6f6")
-		)
-		(instances
-			(project ""
-				(path "/13ff5fb5-140a-4554-92d9-4ae3849ea082"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -7053,7 +6897,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:LQP03TG3N1B02D"
 			(at 232.41 133.35 0)
 			(effects
 				(font
@@ -7062,7 +6906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/76/2/JELF243C_0015.pdf"
 			(at 232.41 133.35 0)
 			(effects
 				(font
@@ -7458,7 +7302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "SamacSys_Parts:GRM033D70J224ME01D"
 			(at 222.25 137.16 0)
 			(effects
 				(font
@@ -7467,7 +7311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/76/1/GRM0335C1H1R0BA01-01A.pdf"
 			(at 222.25 137.16 0)
 			(effects
 				(font
