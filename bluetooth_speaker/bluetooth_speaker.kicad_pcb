@@ -200,6 +200,7 @@
 	(net 81 "unconnected-(U3-GPIO.1{slash}RXT-Pad18)")
 	(net 82 "unconnected-(U3-GPIO.2{slash}RS485-Pad17)")
 	(net 83 "unconnected-(U3-GPIO.6-Pad20)")
+	(net 84 "Net-(L2-Pad2)")
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "02453988-4ef4-40a6-bc0b-c0501bffc825")
@@ -3598,7 +3599,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Taoglas/EMPCB.SMAFSTJ.C.HT?qs=AL7xPqYNrmS49k5WLHoXWA%3D%3D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8554,6 +8555,197 @@
 			)
 		)
 	)
+	(footprint "SamacSys_Parts:MHQ1005"
+		(layer "F.Cu")
+		(uuid "a1b3d411-811c-407d-a735-30a3c79a3e11")
+		(at 117.575 94)
+		(descr "MHQ1005")
+		(tags "Inductor")
+		(property "Reference" "L2"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "57b6a7a1-3227-4aae-b28b-9c9d5848dac0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "2nH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b4df3d5b-2cfd-4f17-ab04-60b2eaf4c86e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/TDK/MHQ1005P2N0BTD25?qs=sGAEpiMZZMv126LJFLh8y5lwrxezZJ61ff3nV176I9k%3D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1006e2a1-d205-42c7-bd40-bed3cfbe83f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b8623b8-75b6-416a-bb1c-62d5b5ca1c0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+		(path "/94da0885-e9d2-4e7e-bceb-04f099ff982a")
+		(sheetname "/")
+		(sheetfile "bluetooth_speaker.kicad_sch")
+		(attr smd)
+		(fp_circle
+			(center -1.025 0)
+			(end -1.025 0.05)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "1f987716-c28a-4dc6-9126-1ca82600e81f")
+		)
+		(fp_line
+			(start -1.625 -1)
+			(end 1.2 -1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "11f0aef5-9b59-47dc-a975-d4703edcedf4")
+		)
+		(fp_line
+			(start -1.625 1)
+			(end -1.625 -1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "92550564-65a6-4bb7-a0de-69c7fafdbeab")
+		)
+		(fp_line
+			(start 1.2 -1)
+			(end 1.2 1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a3118a9a-6973-46d8-8c85-27f4245e0229")
+		)
+		(fp_line
+			(start 1.2 1)
+			(end -1.625 1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9138ed84-51ef-4662-95e3-67a5d8b277df")
+		)
+		(fp_line
+			(start -0.5 -0.3)
+			(end 0.5 -0.3)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1e030c63-c11f-4998-931a-432485b6106d")
+		)
+		(fp_line
+			(start -0.5 0.3)
+			(end -0.5 -0.3)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b7430e81-0bbd-4dd8-a15d-151429738915")
+		)
+		(fp_line
+			(start 0.5 -0.3)
+			(end 0.5 0.3)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "67ef891e-e204-49ca-b107-678e0b8816c4")
+		)
+		(fp_line
+			(start 0.5 0.3)
+			(end -0.5 0.3)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2d8043c4-8998-4807-8ced-da9682fe37e7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4a9ea7a6-8c6a-4e62-9d56-74b73e9b2607")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.425 0)
+			(size 0.35 0.65)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 8 "+3.3V")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "c37ffe1e-255d-4c27-8c0c-0b574fa9586a")
+		)
+		(pad "2" smd rect
+			(at 0.425 0)
+			(size 0.35 0.65)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 84 "Net-(L2-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "c1448892-bcc7-48c2-9184-745afaa7cd0d")
+		)
+		(embedded_fonts no)
+		(model "D:\\SamacSys_PCB_Library\\KiCad\\SamacSys_Parts.3dshapes\\MHQ1005P2N0BTD25.stp"
+			(offset
+				(xyz 0 0 0.2499999962)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ade42c89-f079-4141-84b1-74138773bb9c")
@@ -12855,7 +13047,7 @@
 			(at -2.4487 -1.575001 90)
 			(size 0.1786 0.757199)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 8 "+3.3V")
+			(net 84 "Net-(L2-Pad2)")
 			(pinfunction "VDD3P3")
 			(pintype "power_in")
 			(uuid "f9c3a08a-3f40-4e42-b596-b7ad9d95f45c")
@@ -12864,7 +13056,7 @@
 			(at -2.4487 -1.225001 90)
 			(size 0.1786 0.757199)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 8 "+3.3V")
+			(net 84 "Net-(L2-Pad2)")
 			(pinfunction "VDD3P3")
 			(pintype "power_in")
 			(uuid "21b1ef29-a08e-41fe-8c75-40f4ad09565a")

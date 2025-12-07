@@ -2979,6 +2979,12 @@
 		(uuid "bbfefc3f-6297-4e40-a0f8-13b37948fee1")
 	)
 	(junction
+		(at 43.18 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0206b810-ef2b-4915-bf98-782dcd40b141")
+	)
+	(junction
 		(at 63.5 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2995,6 +3001,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d90c926-3a94-4968-aaee-997e1cc387c9")
+	)
+	(junction
+		(at 59.69 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a89faca-b0cd-4163-83f7-1baa362dbe71")
 	)
 	(junction
 		(at 160.02 39.37)
@@ -3033,12 +3045,6 @@
 		(uuid "4a2e3b8a-565e-4d1e-8eae-d63012a43a68")
 	)
 	(junction
-		(at 59.69 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "542dd5af-4a3f-4ece-9834-6aa454258487")
-	)
-	(junction
 		(at 168.91 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3049,12 +3055,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7842338b-faf9-4e3a-a06b-fa4580057069")
-	)
-	(junction
-		(at 43.18 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8307e90f-0d27-42c3-ab4d-155cfc644cd8")
 	)
 	(junction
 		(at 21.59 39.37)
@@ -3291,6 +3291,16 @@
 			(type default)
 		)
 		(uuid "0ef47e98-b9de-43c5-aeba-fb9b4239c233")
+	)
+	(wire
+		(pts
+			(xy 54.61 39.37) (xy 59.69 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0febdd89-b90f-46da-97f3-dfd31cfb1ed1")
 	)
 	(wire
 		(pts
@@ -3744,6 +3754,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 39.37) (xy 46.99 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a10dd676-b2bf-4f01-91f7-c3bee747a0ea")
+	)
+	(wire
+		(pts
 			(xy 232.41 73.66) (xy 237.49 73.66)
 		)
 		(stroke
@@ -4051,16 +4071,6 @@
 			(type default)
 		)
 		(uuid "e1fb2ef8-6742-4afe-a05c-1ce2fccd48ac")
-	)
-	(wire
-		(pts
-			(xy 43.18 39.37) (xy 59.69 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5661851-03ab-45d9-ace0-856dd51b5528")
 	)
 	(wire
 		(pts
@@ -5333,7 +5343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Taoglas/EMPCB.SMAFSTJ.C.HT?qs=AL7xPqYNrmS49k5WLHoXWA%3D%3D"
 			(at 250.19 133.35 0)
 			(effects
 				(font
@@ -6594,6 +6604,74 @@
 			(project "bluetooth_speaker"
 				(path "/13ff5fb5-140a-4554-92d9-4ae3849ea082"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 50.8 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94da0885-e9d2-4e7e-bceb-04f099ff982a")
+		(property "Reference" "L2"
+			(at 50.8 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2nH"
+			(at 50.8 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:MHQ1005"
+			(at 50.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/TDK/MHQ1005P2N0BTD25?qs=sGAEpiMZZMv126LJFLh8y5lwrxezZJ61ff3nV176I9k%3D"
+			(at 50.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 50.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85413c4c-0837-4b22-8ecf-c780d6793e5f")
+		)
+		(pin "2"
+			(uuid "7c066940-e01c-4b7e-b89a-0ab05588a566")
+		)
+		(instances
+			(project ""
+				(path "/13ff5fb5-140a-4554-92d9-4ae3849ea082"
+					(reference "L2")
 					(unit 1)
 				)
 			)
