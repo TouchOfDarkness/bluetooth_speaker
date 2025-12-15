@@ -921,6 +921,263 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:SS8050-G"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 13.97 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SS8050-G"
+				(at 13.97 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT95P240X115-3N"
+				(at 13.97 -101.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-12/229454.pdf"
+				(at 13.97 -201.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.15"
+				(at 13.97 -401.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "750-SS8050-G"
+				(at 13.97 -501.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/SS8050-G?qs=LLUE9lz1YbcHg%252BWLMAtcrQ%3D%3D"
+				(at 13.97 -601.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Comchip Technology"
+				(at 13.97 -701.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SS8050-G"
+				(at 13.97 -801.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SS8050-G_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 1.27) (xy 10.16 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.27) (xy 10.16 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.382 -2.54) (xy 8.89 -2.032) (xy 9.398 -3.048) (xy 8.382 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 8.89 0)
+					(radius 4.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 3.81) (xy 10.16 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -3.81) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -1159,10 +1416,22 @@
 		(uuid "99c45ede-06f6-49fe-8bc7-81f2538deeb8")
 	)
 	(junction
+		(at 147.32 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "166d4df0-e0ba-4124-ad6b-49c2f817d59b")
+	)
+	(junction
 		(at 22.86 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "433a3804-dfc4-4fd7-91f9-e57816287909")
+	)
+	(junction
+		(at 148.59 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "961ecd19-6fef-4835-bb3d-7b6542289775")
 	)
 	(junction
 		(at 34.29 38.1)
@@ -1199,20 +1468,16 @@
 		(uuid "4ccd7bcd-3729-4754-b8d3-a4e0a8b5abfa")
 	)
 	(no_connect
-		(at 129.54 63.5)
-		(uuid "57e05ff3-4740-402a-99f1-fe12d86927aa")
-	)
-	(no_connect
-		(at 129.54 50.8)
-		(uuid "63d66c6d-0898-4fc9-9034-5b569a6657ab")
-	)
-	(no_connect
 		(at 63.5 78.74)
 		(uuid "695f2caf-b6d5-429a-917d-274a78567532")
 	)
 	(no_connect
 		(at 63.5 48.26)
 		(uuid "716d7822-2bc9-427d-9442-bd47283f35b8")
+	)
+	(no_connect
+		(at 129.54 63.5)
+		(uuid "72820efb-360b-4e8b-8a5b-1afa7ac327d3")
 	)
 	(no_connect
 		(at 63.5 50.8)
@@ -1225,10 +1490,6 @@
 	(no_connect
 		(at 129.54 81.28)
 		(uuid "977d2054-0222-48b9-80d2-654ec0f50d60")
-	)
-	(no_connect
-		(at 129.54 60.96)
-		(uuid "a6bc81fa-152b-43bd-8006-99f2029016c3")
 	)
 	(no_connect
 		(at 63.5 71.12)
@@ -1260,6 +1521,26 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 50.8) (xy 166.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01170ef7-538a-40c1-9c24-08aa912e68ea")
+	)
+	(wire
+		(pts
+			(xy 160.02 68.58) (xy 166.37 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05004ee5-a5e2-44f9-aca8-fcea8426b935")
+	)
+	(wire
+		(pts
 			(xy 60.96 60.96) (xy 60.96 63.5)
 		)
 		(stroke
@@ -1267,6 +1548,26 @@
 			(type default)
 		)
 		(uuid "09f9fb3b-27b4-411c-830d-12cbab1dd553")
+	)
+	(wire
+		(pts
+			(xy 176.53 58.42) (xy 148.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1024b578-cbff-43cf-9fb7-0c621f52f7d9")
+	)
+	(wire
+		(pts
+			(xy 148.59 58.42) (xy 148.59 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "120bb270-1e86-406a-ba10-a1a3d06c85d5")
 	)
 	(wire
 		(pts
@@ -1287,6 +1588,16 @@
 			(type default)
 		)
 		(uuid "1db00f0c-e85a-4b8f-b6c8-b37ed2efda8f")
+	)
+	(wire
+		(pts
+			(xy 176.53 77.47) (xy 176.53 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20b1d929-dd28-4485-95f4-a09fb866b187")
 	)
 	(wire
 		(pts
@@ -1317,6 +1628,16 @@
 			(type default)
 		)
 		(uuid "3570360e-2fe7-4398-b859-bc6b3c67709b")
+	)
+	(wire
+		(pts
+			(xy 176.53 43.18) (xy 176.53 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d4dcfd-185c-48c8-8f06-178c34df50af")
 	)
 	(wire
 		(pts
@@ -1357,6 +1678,16 @@
 			(type default)
 		)
 		(uuid "47f6fb79-1889-49ca-b437-da0e082c3347")
+	)
+	(wire
+		(pts
+			(xy 147.32 50.8) (xy 147.32 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "598e2b98-f1da-48b9-a7fd-8e4c5ecd826f")
 	)
 	(wire
 		(pts
@@ -1410,6 +1741,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 77.47) (xy 182.88 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961658e5-d66b-464c-915d-11bd1e927ef7")
+	)
+	(wire
+		(pts
 			(xy 34.29 38.1) (xy 34.29 40.64)
 		)
 		(stroke
@@ -1420,6 +1761,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 50.8) (xy 147.32 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67319cf-b945-40c3-9d0a-d84c40c3741a")
+	)
+	(wire
+		(pts
 			(xy 29.21 72.39) (xy 29.21 74.93)
 		)
 		(stroke
@@ -1427,6 +1778,26 @@
 			(type default)
 		)
 		(uuid "b48760d4-fcca-47c3-b7ea-e1dbae2af50f")
+	)
+	(wire
+		(pts
+			(xy 148.59 68.58) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b988c817-9f8e-47bb-8ccc-b13ff1d32221")
+	)
+	(wire
+		(pts
+			(xy 176.53 60.96) (xy 147.32 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2183b17-39d3-4759-a3d2-b44d7792475e")
 	)
 	(wire
 		(pts
@@ -1490,6 +1861,26 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 68.58) (xy 148.59 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd8eb4cb-4fe7-4d00-aeb7-6f837369ff4b")
+	)
+	(wire
+		(pts
+			(xy 137.16 68.58) (xy 137.16 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb4106b-1112-44dc-89b5-a67d9271500d")
+	)
+	(wire
+		(pts
 			(xy 39.37 66.04) (xy 39.37 72.39)
 		)
 		(stroke
@@ -1510,6 +1901,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 60.96) (xy 129.54 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7703b18-7eed-42de-9426-6e866dfd1bd3")
+	)
+	(wire
+		(pts
+			(xy 147.32 50.8) (xy 152.4 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91b4f24-5b7d-4d9e-82bd-3c2770c09f12")
+	)
+	(wire
+		(pts
 			(xy 45.72 38.1) (xy 34.29 38.1)
 		)
 		(stroke
@@ -1517,6 +1928,16 @@
 			(type default)
 		)
 		(uuid "fbfb5de6-4f46-455d-be23-5e3f8db5dfa0")
+	)
+	(wire
+		(pts
+			(xy 176.53 41.91) (xy 181.61 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc32036-9eb4-4608-9e83-fb95fdd97398")
 	)
 	(wire
 		(pts
@@ -1550,6 +1971,17 @@
 		)
 		(uuid "389f6255-e6b8-4ffa-803f-5d9d201ce9e1")
 	)
+	(hierarchical_label "IO0"
+		(shape input)
+		(at 182.88 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43a902de-52c2-44ce-9e6f-7e5b06d7abd8")
+	)
 	(hierarchical_label "RX0"
 		(shape input)
 		(at 129.54 58.42 0)
@@ -1560,6 +1992,17 @@
 			(justify left)
 		)
 		(uuid "4f3a42ca-60de-4b04-bb6f-12ab5728610d")
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 181.61 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a9b9641-0430-44df-9131-89ab57ca74d2")
 	)
 	(hierarchical_label "USB_D-"
 		(shape input)
@@ -1919,6 +2362,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 156.21 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20eed658-2d38-4361-bfcd-c9ae574dec25")
+		(property "Reference" "R9"
+			(at 155.448 45.212 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 155.448 47.752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 156.21 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68a8c4b1-c18a-4643-86fa-8ee7bc875a54")
+		)
+		(pin "2"
+			(uuid "d9a462e8-75ed-40ba-8f5b-d0a1ae3b5cbb")
+		)
+		(instances
+			(project "bluetooth_speaker"
+				(path "/13ff5fb5-140a-4554-92d9-4ae3849ea082/597ada8e-b23f-4a63-8db5-74da342cd1e1"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CP2102N-A01-GQFN28:CP2102N-A01-GQFN28")
 		(at 63.5 48.26 0)
 		(unit 1)
@@ -2140,6 +2650,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 156.21 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0124949-83dd-4891-b830-7770dd416646")
+		(property "Reference" "R10"
+			(at 155.448 63.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 155.448 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 156.21 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 156.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26ba0b50-3062-47ff-9c9a-39a709771ad2")
+		)
+		(pin "2"
+			(uuid "90d59dbc-b67e-455d-af4e-e465d7146485")
+		)
+		(instances
+			(project "bluetooth_speaker"
+				(path "/13ff5fb5-140a-4554-92d9-4ae3849ea082/597ada8e-b23f-4a63-8db5-74da342cd1e1"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 34.29 48.26 0)
 		(unit 1)
@@ -2277,6 +2854,131 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:SS8050-G")
+		(at 166.37 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb36c819-10ad-4cdb-8bfd-8cf7a316a1cc")
+		(property "Reference" "Q2"
+			(at 180.34 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS8050-G"
+			(at 180.34 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT95P240X115-3N"
+			(at 180.34 169.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-12/229454.pdf"
+			(at 180.34 269.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V"
+			(at 166.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.15"
+			(at 180.34 469.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "750-SS8050-G"
+			(at 180.34 569.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/SS8050-G?qs=LLUE9lz1YbcHg%252BWLMAtcrQ%3D%3D"
+			(at 180.34 669.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Comchip Technology"
+			(at 180.34 769.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS8050-G"
+			(at 180.34 869.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "60244bf2-12cb-4e62-876a-542a451a193a")
+		)
+		(pin "2"
+			(uuid "411bb733-aa66-441a-ba6b-969765ba9696")
+		)
+		(pin "1"
+			(uuid "669b317f-05f1-4031-a439-f8d30414e7c0")
+		)
+		(instances
+			(project ""
+				(path "/13ff5fb5-140a-4554-92d9-4ae3849ea082/597ada8e-b23f-4a63-8db5-74da342cd1e1"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 34.29 43.18 0)
 		(unit 1)
@@ -2340,6 +3042,131 @@
 			(project "bluetooth_speaker"
 				(path "/13ff5fb5-140a-4554-92d9-4ae3849ea082/597ada8e-b23f-4a63-8db5-74da342cd1e1"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:SS8050-G")
+		(at 166.37 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c437c133-0326-42c7-93b1-40284cadf3aa")
+		(property "Reference" "Q1"
+			(at 180.34 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS8050-G"
+			(at 180.34 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOT95P240X115-3N"
+			(at 180.34 152.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-12/229454.pdf"
+			(at 180.34 252.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V"
+			(at 166.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.15"
+			(at 180.34 452.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "750-SS8050-G"
+			(at 180.34 552.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/SS8050-G?qs=LLUE9lz1YbcHg%252BWLMAtcrQ%3D%3D"
+			(at 180.34 652.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Comchip Technology"
+			(at 180.34 752.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS8050-G"
+			(at 180.34 852.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcc89e5e-834b-4582-a5f7-375c1a67ef61")
+		)
+		(pin "2"
+			(uuid "9e41cd13-6752-4649-9858-4a96c0523b06")
+		)
+		(pin "3"
+			(uuid "2af3a484-47f1-4934-8977-1e297d0445bf")
+		)
+		(instances
+			(project ""
+				(path "/13ff5fb5-140a-4554-92d9-4ae3849ea082/597ada8e-b23f-4a63-8db5-74da342cd1e1"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
