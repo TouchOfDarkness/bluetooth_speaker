@@ -3825,7 +3825,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 187.96) (xy 147.32 187.96)
+			(xy 135.89 185.42) (xy 146.05 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4065,7 +4065,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 185.42) (xy 147.32 185.42)
+			(xy 144.78 182.88) (xy 146.05 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4135,7 +4135,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 182.88) (xy 147.32 182.88)
+			(xy 144.78 180.34) (xy 146.05 180.34)
 		)
 		(stroke
 			(width 0)
@@ -4295,7 +4295,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 180.34) (xy 147.32 180.34)
+			(xy 144.78 177.8) (xy 146.05 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4724,7 +4724,7 @@
 		(uuid "3894822d-0b9a-418b-9c01-4255b0e685f9")
 	)
 	(label "BTN_VOL_UP"
-		(at 146.05 182.88 180)
+		(at 144.78 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4774,7 +4774,7 @@
 		(uuid "61ec24ee-e6e9-4968-811b-6cdeb2d1bed2")
 	)
 	(label "BTN_PLAY"
-		(at 146.05 180.34 180)
+		(at 144.78 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4874,7 +4874,7 @@
 		(uuid "b798a3e0-8a1b-4128-b706-02d033326137")
 	)
 	(label "BTN_VOL_DOWN"
-		(at 146.05 185.42 180)
+		(at 144.78 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5274,7 +5274,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 187.96 270)
+		(at 135.89 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5283,7 +5283,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ab11953-8481-4f19-b3a4-79c7134ec0e3")
 		(property "Reference" "#PWR047"
-			(at 130.81 187.96 0)
+			(at 129.54 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5292,7 +5292,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 187.96 0)
+			(at 130.81 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5301,7 +5301,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 187.96 0)
+			(at 135.89 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,7 +5310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 187.96 0)
+			(at 135.89 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5319,7 +5319,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 187.96 0)
+			(at 135.89 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7397,7 +7397,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 152.4 185.42 180)
+		(at 151.13 182.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7405,7 +7405,7 @@
 		(dnp no)
 		(uuid "84b6e0de-dc43-47ca-8160-5ff6c12a4ab8")
 		(property "Reference" "J5"
-			(at 153.924 175.768 0)
+			(at 152.654 173.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7413,7 +7413,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 153.924 173.228 0)
+			(at 152.654 170.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7421,7 +7421,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
-			(at 152.4 185.42 0)
+			(at 151.13 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7430,7 +7430,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 185.42 0)
+			(at 151.13 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7439,7 +7439,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 152.4 185.42 0)
+			(at 151.13 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)

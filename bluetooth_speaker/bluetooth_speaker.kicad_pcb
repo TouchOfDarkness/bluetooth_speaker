@@ -803,7 +803,7 @@
 	(footprint "SamacSys_Parts:LQP03TG3N1B02D"
 		(layer "F.Cu")
 		(uuid "177cbf82-3711-44fe-a5a9-8191b2afbd46")
-		(at 176.2013 101.075)
+		(at 176.275 100.6)
 		(descr "0201 (0603) T=0.3±0.03mm")
 		(tags "Inductor")
 		(property "Reference" "L3"
@@ -10641,7 +10641,7 @@
 	(footprint "SamacSys_Parts:GRM033D70J224ME01D"
 		(layer "F.Cu")
 		(uuid "c5950ff3-16bf-49c9-94de-6381eed735e4")
-		(at 174.6763 100.512 90)
+		(at 174.75 100.037 90)
 		(descr "GRM03")
 		(tags "Capacitor")
 		(property "Reference" "C16"
@@ -15252,13 +15252,13 @@
 	(footprint "SamacSys_Parts:GRM033D70J224ME01D"
 		(layer "F.Cu")
 		(uuid "eb1a1eca-bf01-4382-82a8-2830279d8678")
-		(at 177.6763 100.512 90)
+		(at 177.75 100.037 90)
 		(descr "GRM03")
 		(tags "Capacitor")
 		(property "Reference" "C17"
 			(at 0 -2.25 90)
 			(layer "F.SilkS")
-			(uuid "fca724ba-6fc5-4f37-b322-1d9aff40c1c6")
+			(uuid "67c13c1c-f221-478b-88b4-1e389df99d0e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15270,7 +15270,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "549849f3-edc1-4da6-a8d1-6dc83b31bdd6")
+			(uuid "a3f72d85-dfe8-4799-85ba-787745f1cc00")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15282,7 +15282,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "052fc076-44bb-4fd9-9d80-9f71aecd6e3d")
+			(uuid "8dda918a-5333-4a0b-b48d-90f188405c3a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15294,7 +15294,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5ed117e-962a-43a9-9921-a076bb863844")
+			(uuid "5b9ddc80-a88c-4f88-b387-afee47fd3adf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16124,6 +16124,22 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "cc50ce6d-08ac-4f62-8a5f-64afcbeb5b05")
+	)
+	(segment
+		(start 181.525 100.525)
+		(end 181.6 100.6)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "454a5f76-01e0-44bf-acdc-56cee27a8fff")
+	)
+	(segment
+		(start 181.4513 100.525)
+		(end 181.525 100.525)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "ff4d358d-a501-42ee-87b8-b1d86faf12bd")
 	)
 	(segment
 		(start 165.5 117.844974)
