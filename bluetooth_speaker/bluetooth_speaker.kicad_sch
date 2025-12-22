@@ -5161,7 +5161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:GRM033D70J224ME01D"
+		(property "Footprint" "SamacSys_Parts:CAPC3216X170N"
 			(at 242.57 137.16 0)
 			(effects
 				(font
@@ -7970,7 +7970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:LQP03TG3N1B02D"
+		(property "Footprint" "SamacSys_Parts:LQW2BAN11NG00L"
 			(at 232.41 133.35 0)
 			(effects
 				(font
@@ -7979,7 +7979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/76/2/JELF243C_0015.pdf"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Murata-Electronics/LQW2BAS2N7J00L?qs=rkhjVJ6%2F3EIoAem%252BmvnZ5w%3D%3D"
 			(at 232.41 133.35 0)
 			(effects
 				(font
@@ -8375,7 +8375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:GRM033D70J224ME01D"
+		(property "Footprint" "SamacSys_Parts:CAPC3216X94N"
 			(at 222.25 137.16 0)
 			(effects
 				(font
