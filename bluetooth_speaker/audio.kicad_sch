@@ -1198,7 +1198,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 74.93 49.276 0)
 			(effects
 				(font
@@ -1400,7 +1400,7 @@
 				)
 			)
 		)
-		(property "Value" "300kΩ"
+		(property "Value" "300k"
 			(at 67.31 72.898 90)
 			(effects
 				(font
@@ -1583,7 +1583,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "10uF"
 			(at 61.722 49.276 0)
 			(effects
 				(font

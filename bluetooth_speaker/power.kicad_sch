@@ -1781,7 +1781,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220µF/50V"
+		(property "Value" "220uF/50V"
 			(at 63.5 44.5769 0)
 			(effects
 				(font
@@ -1984,7 +1984,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330µF/25V"
+		(property "Value" "330uF/25V"
 			(at 147.32 44.5769 0)
 			(effects
 				(font
@@ -2053,7 +2053,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10k"
 			(at 170.942 60.96 0)
 			(effects
 				(font
@@ -2189,7 +2189,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "1uF"
 			(at 75.692 44.196 0)
 			(effects
 				(font
@@ -2526,7 +2526,7 @@
 				)
 			)
 		)
-		(property "Value" "47µH/5A"
+		(property "Value" "47uH/5A"
 			(at 125.73 35.56 90)
 			(effects
 				(font
@@ -2798,7 +2798,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "16.5kΩ"
+		(property "Value" "16.5k"
 			(at 170.434 48.006 0)
 			(effects
 				(font
@@ -2934,7 +2934,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "1uF"
 			(at 87.122 41.656 0)
 			(effects
 				(font
@@ -3003,7 +3003,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "1uF"
 			(at 131.572 44.196 0)
 			(effects
 				(font

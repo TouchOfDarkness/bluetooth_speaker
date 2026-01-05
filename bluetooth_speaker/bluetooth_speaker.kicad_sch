@@ -5197,7 +5197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:CAPC3216X170N"
+		(property "Footprint" "SamacSys_Parts:CAPC3216X94N"
 			(at 242.57 137.16 0)
 			(effects
 				(font
@@ -5257,7 +5257,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "10uF"
 			(at 14.732 44.196 0)
 			(effects
 				(font
@@ -5604,7 +5604,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 36.322 82.296 0)
 			(effects
 				(font
@@ -5876,7 +5876,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 36.322 44.196 0)
 			(effects
 				(font
@@ -6147,7 +6147,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "1uF"
 			(at 153.162 44.196 0)
 			(effects
 				(font
@@ -6563,7 +6563,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 151.892 67.056 0)
 			(effects
 				(font
@@ -6970,7 +6970,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "1uF"
 			(at 151.892 94.996 0)
 			(effects
 				(font
@@ -7113,7 +7113,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "0.1uF"
 			(at 35.052 28.956 0)
 			(effects
 				(font
@@ -8604,7 +8604,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "1uF"
 			(at 24.892 44.196 0)
 			(effects
 				(font
