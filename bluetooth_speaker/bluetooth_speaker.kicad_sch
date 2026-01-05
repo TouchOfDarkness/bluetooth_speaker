@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "13ff5fb5-140a-4554-92d9-4ae3849ea082")
 	(paper "A4")
+	(title_block
+		(title "bluetooth speaker")
+		(date "2026-01-05")
+		(rev "1.0")
+		(company "Politechnika Poznańska")
+	)
 	(lib_symbols
 		(symbol "282836-4:282836-4"
 			(pin_names
@@ -3347,6 +3353,16 @@
 		)
 		(uuid "bbfefc3f-6297-4e40-a0f8-13b37948fee1")
 	)
+	(text "MUSIC CONTROL CONN"
+		(exclude_from_sim no)
+		(at 135.89 165.862 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c3398d03-a38e-4ba9-88d0-dac6ca3d1173")
+	)
 	(junction
 		(at 43.18 39.37)
 		(diameter 0)
@@ -3825,7 +3841,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 185.42) (xy 146.05 185.42)
+			(xy 133.35 187.96) (xy 143.51 187.96)
 		)
 		(stroke
 			(width 0)
@@ -3842,6 +3858,16 @@
 			(type default)
 		)
 		(uuid "3476fcfe-3a3a-4266-a9bf-2b15772e33e7")
+	)
+	(polyline
+		(pts
+			(xy 194.31 163.83) (xy 194.31 165.1)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "3d653431-ec10-48f9-8e8e-3c1dedeb7430")
 	)
 	(wire
 		(pts
@@ -4065,13 +4091,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 182.88) (xy 146.05 182.88)
+			(xy 142.24 185.42) (xy 143.51 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8353e16d-4380-40f8-893d-0d919325ae1b")
+	)
+	(polyline
+		(pts
+			(xy 106.68 158.75) (xy 194.31 158.75)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "883be39b-3576-4b20-a03d-d6f90727bea7")
 	)
 	(wire
 		(pts
@@ -4135,7 +4171,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 180.34) (xy 146.05 180.34)
+			(xy 142.24 182.88) (xy 143.51 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4295,7 +4331,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 177.8) (xy 146.05 177.8)
+			(xy 142.24 180.34) (xy 143.51 180.34)
 		)
 		(stroke
 			(width 0)
@@ -4713,7 +4749,7 @@
 		)
 		(uuid "3803af99-834f-4e85-92a6-752f4dffee51")
 	)
-	(label "BTN_PLAY"
+	(label "BCLK"
 		(at 137.16 64.77 0)
 		(effects
 			(font
@@ -4724,7 +4760,7 @@
 		(uuid "3894822d-0b9a-418b-9c01-4255b0e685f9")
 	)
 	(label "BTN_VOL_UP"
-		(at 144.78 180.34 180)
+		(at 142.24 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4733,7 +4769,7 @@
 		)
 		(uuid "4a48c518-5ce3-4406-a539-91ffaee22f75")
 	)
-	(label "BTN_VOL_UP"
+	(label "DATA"
 		(at 137.16 67.31 0)
 		(effects
 			(font
@@ -4774,7 +4810,7 @@
 		(uuid "61ec24ee-e6e9-4968-811b-6cdeb2d1bed2")
 	)
 	(label "BTN_PLAY"
-		(at 144.78 177.8 180)
+		(at 142.24 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4783,7 +4819,7 @@
 		)
 		(uuid "6ea1f5e4-3481-4baf-afb7-5cb223584987")
 	)
-	(label "BTN_VOL_DOWN"
+	(label "SD_MODE"
 		(at 137.16 69.85 0)
 		(effects
 			(font
@@ -4823,7 +4859,7 @@
 		)
 		(uuid "98bcf4ba-14e4-4a02-8ad6-78c23657f834")
 	)
-	(label "SD_MODE"
+	(label "BTN_PLAY"
 		(at 68.58 69.85 180)
 		(effects
 			(font
@@ -4863,7 +4899,7 @@
 		)
 		(uuid "b6594772-af55-4bfe-819a-d6afba77fa90")
 	)
-	(label "BCLK"
+	(label "BTN_VOL_UP"
 		(at 68.58 67.31 180)
 		(effects
 			(font
@@ -4874,7 +4910,7 @@
 		(uuid "b798a3e0-8a1b-4128-b706-02d033326137")
 	)
 	(label "BTN_VOL_DOWN"
-		(at 144.78 182.88 180)
+		(at 142.24 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4913,7 +4949,7 @@
 		)
 		(uuid "d3dab1ef-c0c7-4a14-8ab9-2e9b74f7e053")
 	)
-	(label "DATA"
+	(label "LRCLK"
 		(at 137.16 57.15 0)
 		(effects
 			(font
@@ -4943,7 +4979,7 @@
 		)
 		(uuid "eee49eea-592b-4507-a69f-19bbc7fe70be")
 	)
-	(label "LRCLK"
+	(label "BTN_VOL_DOWN"
 		(at 68.58 64.77 180)
 		(effects
 			(font
@@ -5274,7 +5310,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 185.42 270)
+		(at 133.35 187.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5283,7 +5319,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ab11953-8481-4f19-b3a4-79c7134ec0e3")
 		(property "Reference" "#PWR047"
-			(at 129.54 185.42 0)
+			(at 127 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5292,7 +5328,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 185.42 0)
+			(at 128.27 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5301,7 +5337,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 185.42 0)
+			(at 133.35 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,7 +5346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 185.42 0)
+			(at 133.35 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5319,7 +5355,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 185.42 0)
+			(at 133.35 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7397,7 +7433,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 151.13 182.88 180)
+		(at 148.59 185.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7405,7 +7441,7 @@
 		(dnp no)
 		(uuid "84b6e0de-dc43-47ca-8160-5ff6c12a4ab8")
 		(property "Reference" "J5"
-			(at 152.654 173.228 0)
+			(at 150.114 175.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7413,7 +7449,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 152.654 170.688 0)
+			(at 150.114 173.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7421,7 +7457,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
-			(at 151.13 182.88 0)
+			(at 148.59 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7430,7 +7466,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 182.88 0)
+			(at 148.59 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7439,7 +7475,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 151.13 182.88 0)
+			(at 148.59 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
