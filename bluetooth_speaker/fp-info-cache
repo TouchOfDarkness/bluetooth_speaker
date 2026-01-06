@@ -1,4 +1,4 @@
-26800869498432858
+26806172509453329
 282836-4
 282836-4_TYC
 
@@ -97356,6 +97356,13 @@ Capacitor
 2
 2
 SamacSys_Parts
+FW400WFMR1
+FW400WFMR1-2
+Crystal or Oscillator
+0
+4
+4
+SamacSys_Parts
 GRM033D70J224ME01D
 GRM03
 Capacitor
@@ -97412,12 +97419,26 @@ Integrated Circuit
 8
 8
 SamacSys_Parts
+QFN50P500X500X80-29N-D
+QFN28_2025-1.1
+Integrated Circuit
+0
+29
+29
+SamacSys_Parts
 SOT95P240X115-3N
 SOT-23_2
 Transistor BJT NPN
 0
 3
 3
+SamacSys_Parts
+SP0503BAHTG
+SP0503BAHTG-1
+TVS Diode (Uni-directional)
+0
+4
+4
 SamacSys_Parts
 TS046650BK100SMTTR
 TS04-66-50-BK-100-SMT-TR-2
